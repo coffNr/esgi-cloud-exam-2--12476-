@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 
 // Connexion à la base de données PostgreSQL
 const sequelize = new Sequelize(
-  'postgres://esgi_cloud_exam_2_12476_user:@dpg-co60964f7o1s73a9362g-a:5432/esgi_cloud_exam_2_12476', // Chaîne de connexion
+  'postgres://esgi_cloud_exam_2_12476_user:XR1MqPgekQDG4FwBmMUlP9u9gBPHz6fe@dpg-co60964f7o1s73a9362g-a:5432/esgi_cloud_exam_2_12476', // Chaîne de connexion
   {
     dialectOptions: {
       ssl: {
